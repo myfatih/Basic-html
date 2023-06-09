@@ -17,13 +17,15 @@ body {
 .header {
     width: 100%;
     overflow: hidden;
-    background: #b1b1b1;
+    background: linear-gradient(to bottom, rgb(32, 9, 88),rgb(8, 59, 84));
+    height: 550px;
 }
 
 .header .logo {
     font-size: 32px;
     float: left;
-    font-family: 'Tilt Prism';
+    font-family: 'Titan One';
+    color: #ffffff;
 }
 
 .header .navigation {
@@ -39,24 +41,24 @@ body {
 }   
 
 .header .navigation li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-family: CarterOne;
 }
 
 .header .navigation li a:hover {
-    color: blue;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
 }
 
 .icon-kelas {
-    width: 500px;
-    height: 500px;
-    background-image: url('../images/foto\ I.jpeg');
+    width: 250px;
+    height: 250px;
+    background-image: url('../images/Sate.jpeg');
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 .parent {
-    margin-top: 100px;
+    margin-left: 100px;
 }
